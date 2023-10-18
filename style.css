@@ -1,0 +1,25 @@
+body {
+    font-family:"Arial Narrow";
+  }
+.navBar {
+    height:auto;
+    text-align:center;
+    width:100%;
+  }
+.navBar > ul > li {
+    display:inline;
+  }
+.navBar > ul > li > a
+  {
+    color:#000000;
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    margin:0px;
+    padding:0px 15px;
+    text-decoration:none;
+    transition: color 0.3s ease-in;
+  }
+.navBar > ul > li > a:hover {
+    color:#858585;
+  }
