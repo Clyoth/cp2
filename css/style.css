@@ -106,4 +106,5 @@ body {
 .Ref {
   font-size: 7vw;
   text-decoration: underline;
+  animation: fadeIn 2s;
 }
