@@ -4,6 +4,14 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+@keyframes hov {
+  0% {opacity: 1;}
+  100% {opacity: 0.6;}
+}
+@keyframes unhov {
+  0% {opacity: 0.6;}
+  100% {opacity: 1;}
+}
 
 body {
   font-family:"Arial Narrow";
@@ -99,7 +107,7 @@ body {
 }
 
 /* References */
-.content > .contentRef {
+.content .contentRef {
   animation: fadeIn 2s;
 }
 
@@ -107,4 +115,33 @@ body {
   font-size: 7vw;
   text-decoration: underline;
   animation: fadeIn 2s;
+}
+
+/* About */
+
+.Abt {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 6.5vw;
+}
+
+.cont {
+  display: block;
+  align-items: center;
+  text-align: center;
+  
+}
+.cont img {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border-radius: 10%;
+}
+
+.cont img:hover{
+  animation: hov 0.5s;
+  animation-fill-mode: forwards; 
+  
+}
+.cont img:not(:hover){
+  animation: unhov 0.2s;
+  animation-fill-mode: forwards;
 }
