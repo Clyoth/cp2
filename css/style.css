@@ -117,6 +117,20 @@ body {
   animation: fadeIn 2s;
 }
 
+
+.refLink {
+  list-style-type: none;
+  
+}
+
+.refLink li a {
+  text-decoration: none;
+  color: black;
+  font-size: 3vw;
+  
+
+}
+
 /* About */
 
 .Abt {
