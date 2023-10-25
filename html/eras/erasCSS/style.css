@@ -40,3 +40,101 @@
   }
 }
 
+.ancText {
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+.ancText span {
+    opacity: 0;
+    animation: fadeIn 0.0001s linear forwards;
+    animation-delay: 1s;
+}
+
+.ancText:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #ffffff;
+    animation: reveal 0.6s cubic-bezier(0.2, 1, 0.2, 1) forwards;
+    animation-delay: 0.8s;
+}
+
+
+.elecText {
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+.elecText span {
+    opacity: 0;
+    animation: fadeIn 0.0001s linear forwards;
+    animation-delay: 1s;
+}
+
+.elecText:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #ffffff;
+    animation: reveal 0.6s cubic-bezier(0.2, 1, 0.2, 1) forwards;
+    animation-delay: 0.8s;
+}
+
+
+.indText {
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+.indText span {
+    opacity: 0;
+    animation: fadeIn 0.0001s linear forwards;
+    animation-delay: 1s;
+}
+
+.indText:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #ffffff;
+    animation: reveal 0.6s cubic-bezier(0.2, 1, 0.2, 1) forwards;
+    animation-delay: 0.8s;
+}
+
+
+.prehisText {
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+.prehisText span {
+    opacity: 0;
+    animation: fadeIn 0.0001s linear forwards;
+    animation-delay: 1s;
+}
+
+.prehisText:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: #ffffff;
+    animation: reveal 0.6s cubic-bezier(0.2, 1, 0.2, 1) forwards;
+    animation-delay: 0.8s;
+}
