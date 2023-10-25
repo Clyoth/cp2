@@ -131,7 +131,9 @@ body {
 
 
 .refLink {
+  display: block;
   list-style-type: none;
+  padding-right: 2vw;
   
 }
 
@@ -145,10 +147,18 @@ body {
 
 /* About */
 
-.Abt {
+.abtTitle {
   font-family: 'Quicksand', sans-serif;
   font-size: 6.5vw;
+  margin: 0;
+  margin-top: 3vw;
 }
+
+.abtH2 {
+  font-family: Quicksand, sans-serif;
+  margin-bottom: 5vw;
+}
+
 
 .cont {
   align-items: center;
@@ -156,6 +166,7 @@ body {
   border-left: 3px;
   padding: 0px;
   margin-left: 4vw  ;
+  animation: delayedFade 2.5s;
   
 }
 
@@ -230,13 +241,12 @@ body {
   background-color: #ffffff96;  
 }
 
-.text {
-  color: rgb(0, 0, 0);
-  font-size: 2vw;
+.overlay h1 {
+  margin-top: 100px;
 }
 
 .prehistoric:hover .overlay {
-  animation: fadeIn 1s;
+  animation: fadeIn 2s;
   animation-fill-mode: forwards;
 }
 
@@ -246,7 +256,7 @@ body {
 }
 
 .ancient:hover .overlay {
-  animation: fadeIn 1s;
+  animation: fadeIn 2s;
   animation-fill-mode: forwards;
 }
 
@@ -256,7 +266,7 @@ body {
 }
 
 .industrial:hover .overlay {
-  animation: fadeIn 1s;
+  animation: fadeIn 2s;
   animation-fill-mode: forwards;
 }
 
@@ -266,7 +276,7 @@ body {
 }
 
 .electronic:hover .overlay {
-  animation: fadeIn 1s;
+  animation: fadeIn 2s;
   animation-fill-mode: forwards;
 }
 
