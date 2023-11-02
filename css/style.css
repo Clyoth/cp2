@@ -178,9 +178,9 @@ body {
 .cont {
   align-items: center;
   text-align: center;
-  border-left: 3px;
+  border-left: 5%;
   padding: 0px;
-  margin-left: 4vw  ;
+  margin-left: 5%;
   animation: delayedFade 2.5s;
   
 }
