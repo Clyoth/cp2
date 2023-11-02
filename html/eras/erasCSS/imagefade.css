@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    
+    @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+    }
+    
+    @keyframes delayedFade {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    
+    @keyframes unhov {
+    0% {opacity: 1;}
+    100% {opacity: 0.8;}
+    }
+    @keyframes hov {
+    0% {opacity: 0.8;}
+    100% {opacity: 1;}
+    }
+    
+    @keyframes reveal {
+    0% {
+      left: 0;
+      width: 0%;
+    }
+    50% {
+      left: 0;
+      width: 100%;
+    }
+    100% {
+      left: 100%;
+      width: 0%;
+    }
+    }
+
+.examples {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
