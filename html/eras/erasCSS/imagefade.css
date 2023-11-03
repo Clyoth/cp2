@@ -38,8 +38,25 @@
     }
     }
 
-.examples {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.indExample {
+  background-color: rgba(255, 255, 255, 0.568);
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2vw;
+  font-size: 1.6vw;
+}
+
+.prehisExample {
+  background-color: rgba(255, 255, 255, 0.568);
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2vw;
+  font-size: 1.6vw;
+  padding-right: 1.3vw;
 }
